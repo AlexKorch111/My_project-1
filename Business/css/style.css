@@ -8,12 +8,10 @@
   src: url("../fonts/Gotham Black Regular.woff") format("woff");
 }
 
-/* line 9, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 12, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .clearfix::after {
   content: "";
   display: block;
@@ -22,19 +20,16 @@
   height: 0;
 }
 
-/* line 19, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .header {
   background-color: #ffffff;
 }
 
-/* line 22, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .header_container {
   max-width: 1163px;
   min-width: 320px;
   margin: 0 auto;
 }
 
-/* line 27, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .header_logo {
   float: left;
   min-width: 50px;
@@ -44,19 +39,16 @@
   margin-top: 22px;
 }
 
-/* line 35, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .header_menu {
   float: right;
   margin-top: 30px;
 }
 
-/* line 39, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .header_list {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 43, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .header_link {
   display: block;
   vertical-align: top;
@@ -69,31 +61,26 @@
   padding: 10px 20px 10px 20px;
 }
 
-/* line 53, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .header_link:hover {
   color: #ffffff;
   background-color: #ffbb42;
 }
 
-/* line 58, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .current_active {
   color: #ffffff;
   background-color: #ffbb42;
 }
 
-/* line 62, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro {
   background-color: #ffffff;
 }
 
-/* line 65, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_second_color {
   background-color: #709dca;
   margin-top: 23px;
   min-width: 320px;
 }
 
-/* line 70, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_container_top {
   max-width: 1165px;
   min-width: 320px;
@@ -103,7 +90,6 @@
   text-align: center;
 }
 
-/* line 78, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_button_title {
   font-family: 'Gotham Black', sans-serif;
   font-size: 35px;
@@ -114,7 +100,6 @@
   line-height: 35px;
 }
 
-/* line 87, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_button_paragraph {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -123,12 +108,10 @@
   line-height: 24px;
 }
 
-/* line 94, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .form {
   margin-top: 33px;
 }
 
-/* line 97, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_button {
   display: inline-block;
   vertical-align: top;
@@ -138,7 +121,6 @@
   border-radius: 4px;
 }
 
-/* line 105, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .input_button {
   float: left;
   width: 80%;
@@ -153,12 +135,10 @@
   outline: none;
 }
 
-/* line 118, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_button_link {
   float: left;
 }
 
-/* line 121, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .name {
   background: url("../images/name.png") no-repeat;
   min-height: 13px;
@@ -166,7 +146,6 @@
   margin: 15px 13px 18px 13px;
 }
 
-/* line 127, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .mail {
   background: url("../images/email.png") no-repeat;
   min-height: 13px;
@@ -174,7 +153,6 @@
   margin: 16px 13px 17px 12px;
 }
 
-/* line 133, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .num {
   background: url("../images/phone.png") no-repeat;
   min-height: 14px;
@@ -182,7 +160,6 @@
   margin: 15px 13px 17px 15px;
 }
 
-/* line 139, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_button_submit {
   display: inline-block;
   vertical-align: top;
@@ -191,7 +168,6 @@
   border-radius: 4px;
 }
 
-/* line 146, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .input_submit {
   width: 100%;
   height: 100%;
@@ -207,18 +183,15 @@
   padding: 16px 0;
 }
 
-/* line 159, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .input_submit:hover {
   background-color: #d8a64f;
   cursor: pointer;
 }
 
-/* line 164, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_bottom_block {
   position: relative;
 }
 
-/* line 167, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_main_img {
   background-image: url("../images/notebook.png");
   background-repeat: no-repeat;
@@ -232,7 +205,6 @@
   min-height: 343px;
 }
 
-/* line 179, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_change_img {
   background-image: url("../images/slider-picture.png");
   background-repeat: no-repeat;
@@ -243,26 +215,22 @@
   margin-top: 18px;
 }
 
-/* line 188, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_slider {
   display: block;
   text-align: center;
   margin-top: 85px;
 }
 
-/* line 193, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .slider {
   display: inline-block;
   vertical-align: top;
   margin-right: 10px;
 }
 
-/* line 197, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .slider:last-child {
   margin-right: 0;
 }
 
-/* line 201, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .slider_link {
   display: block;
   width: 12px;
@@ -272,30 +240,25 @@
   background-color: #ffffff;
 }
 
-/* line 208, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .slider_link:hover {
   border: 2px solid #1ca8dd;
 }
 
-/* line 212, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .current_active_slider {
   border: 2px solid #1ca8dd;
 }
 
-/* line 215, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_container_bottom {
   max-width: 1165px;
   min-width: 320px;
   margin: 0 auto;
 }
 
-/* line 220, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_main_text {
   text-align: center;
   margin-top: 105px;
 }
 
-/* line 224, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_title {
   color: #394b50;
   font-family: 'Gotham Black', sans-serif;
@@ -305,7 +268,6 @@
   line-height: 30px;
 }
 
-/* line 232, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_paragraph {
   color: #394b50;
   font-family: 'Open Sans', sans-serif;
@@ -314,14 +276,12 @@
   line-height: 22px;
 }
 
-/* line 239, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_cards_left {
   float: left;
   margin-top: 90px;
   min-width: 50%;
 }
 
-/* line 244, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_second,
 .intro_card_third,
 .intro_card_fifth,
@@ -329,7 +289,6 @@
   margin-top: 79px;
 }
 
-/* line 250, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-clock-o {
   display: inline-block;
   vertical-align: top;
@@ -341,18 +300,15 @@
   margin-right: 39px;
 }
 
-/* line 259, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-clock-o:hover {
   color: #f6772c;
 }
 
-/* line 264, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_first {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 268, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_title {
   color: #394b50;
   font-family: 'Lato', sans-serif;
@@ -362,7 +318,6 @@
   text-transform: uppercase;
 }
 
-/* line 276, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_text {
   max-width: 467px;
   color: #7b7b7b;
@@ -373,7 +328,6 @@
   margin-top: 21px;
 }
 
-/* line 285, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-graduation-cap {
   display: inline-block;
   vertical-align: top;
@@ -385,18 +339,15 @@
   margin: 79px 23px 0 0;
 }
 
-/* line 294, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-graduation-cap:hover {
   color: #f6772c;
 }
 
-/* line 298, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_second {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 302, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-renren {
   display: inline-block;
   vertical-align: top;
@@ -408,24 +359,20 @@
   margin: 79px 39px 0 0;
 }
 
-/* line 311, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-renren:hover {
   color: #f6772c;
 }
 
-/* line 315, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_third {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 319, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_cards_right {
   float: left;
   margin-top: 90px;
 }
 
-/* line 323, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-cog {
   display: inline-block;
   vertical-align: top;
@@ -437,18 +384,15 @@
   margin-right: 39px;
 }
 
-/* line 332, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-cog:hover {
   color: #f6772c;
 }
 
-/* line 336, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_fourth {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 340, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-rocket {
   display: inline-block;
   vertical-align: top;
@@ -460,18 +404,15 @@
   margin: 79px 35px 0 0;
 }
 
-/* line 349, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-rocket:hover {
   color: #f6772c;
 }
 
-/* line 353, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_fifth {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 357, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-usd {
   display: inline-block;
   vertical-align: top;
@@ -483,25 +424,21 @@
   margin: 79px 46px 0 0;
 }
 
-/* line 366, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-usd:hover {
   color: #f6772c;
 }
 
-/* line 370, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .intro_card_sixth {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 374, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .description {
   background-color: #ffc155;
   margin-top: 155px;
   min-width: 320px;
 }
 
-/* line 379, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .desc_container {
   max-width: 1700px;
   min-width: 320px;
@@ -510,7 +447,6 @@
   height: 1px;
 }
 
-/* line 386, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .desc_img {
   background-image: url("../images/desk.png");
   background-repeat: no-repeat;
@@ -521,7 +457,6 @@
   min-width: 320px;
 }
 
-/* line 395, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .desc_text {
   float: left;
   padding: 164px 0 0 81px;
@@ -529,7 +464,6 @@
   max-width: 505px;
 }
 
-/* line 401, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .desc_title {
   font-family: 'Gotham Black', sans-serif;
   color: #ffffff;
@@ -539,7 +473,6 @@
   line-height: 30px;
 }
 
-/* line 409, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .desc_paragraph {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -550,7 +483,6 @@
   margin-bottom: 33px;
 }
 
-/* line 418, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .desc_link {
   display: inline-block;
   vertical-align: top;
@@ -566,17 +498,14 @@
   padding: 17px 33px;
 }
 
-/* line 431, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .desc_link:hover {
   background-color: #e7ad48;
 }
 
-/* line 435, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .pricing {
   background-color: #e7edf3;
 }
 
-/* line 438, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_container {
   max-width: 1700px;
   min-width: 320px;
@@ -585,7 +514,6 @@
   padding: 137px 0 164px 0;
 }
 
-/* line 445, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .main_price_title {
   font-family: 'Gotham Black', sans-serif;
   color: #394b50;
@@ -595,7 +523,6 @@
   line-height: 30px;
 }
 
-/* line 453, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .main_price_text {
   font-family: 'Lato', sans-serif;
   color: #75888d;
@@ -604,12 +531,10 @@
   line-height: 22px;
 }
 
-/* line 460, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_cards {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 463, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_card_left {
   display: inline-block;
   vertical-align: top;
@@ -621,7 +546,6 @@
   min-width: 320px;
 }
 
-/* line 473, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_card_title,
 .price_card_title_center {
   color: #818b95;
@@ -632,12 +556,10 @@
   margin-bottom: 30px;
 }
 
-/* line 482, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_card_title_center {
   color: #ffffff;
 }
 
-/* line 485, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price,
 .price_center {
   color: #ffbb42;
@@ -647,18 +569,15 @@
   line-height: 60px;
 }
 
-/* line 493, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_center {
   color: #ffffff;
 }
 
-/* line 496, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_icon {
   vertical-align: super;
   font-size: 30px;
 }
 
-/* line 500, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_text,
 .price_text_center {
   color: #818b95;
@@ -668,12 +587,10 @@
   margin-bottom: 33px;
 }
 
-/* line 508, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_text_center {
   color: #ffffff;
 }
 
-/* line 511, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_descr,
 .price_descr_center {
   color: #b5bbc1;
@@ -684,12 +601,10 @@
   border-top: 1px solid #e2e9f0;
 }
 
-/* line 520, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_descr_center {
   color: #c2e1ff;
 }
 
-/* line 523, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_button {
   display: inline-block;
   vertical-align: top;
@@ -704,12 +619,10 @@
   margin-top: 35px;
 }
 
-/* line 535, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_button:hover {
   background-color: #e7ad48;
 }
 
-/* line 539, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_card_center {
   display: inline-block;
   vertical-align: top;
@@ -720,7 +633,6 @@
   min-width: 320px;
 }
 
-/* line 548, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .price_card_right {
   display: inline-block;
   vertical-align: top;
@@ -732,12 +644,10 @@
   min-width: 320px;
 }
 
-/* line 558, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .process {
   background-color: #ffffff;
 }
 
-/* line 561, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .process_container {
   max-width: 1700px;
   min-width: 320px;
@@ -746,7 +656,6 @@
   padding: 155px 0 149px 0;
 }
 
-/* line 568, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .main_process_title {
   color: #394b50;
   font-family: 'Gotham Black', sans-serif;
@@ -756,7 +665,6 @@
   line-height: 30px;
 }
 
-/* line 576, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .main_process_text {
   font-family: 'Lato', sans-serif;
   color: #394b50;
@@ -765,7 +673,6 @@
   line-height: 22px;
 }
 
-/* line 583, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .first_step,
 .second_step,
 .third_step,
@@ -777,7 +684,6 @@
   margin-top: 107px;
 }
 
-/* line 593, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .step_title {
   color: #394b50;
   font-family: 'Lato', sans-serif;
@@ -788,7 +694,6 @@
   margin-top: 102px;
 }
 
-/* line 602, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .step_text {
   color: #7b7b7b;
   font-family: 'Open Sans', sans-serif;
@@ -798,12 +703,10 @@
   margin-top: 28px;
 }
 
-/* line 610, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fourth_step {
   margin-right: 0;
 }
 
-/* line 613, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-headphones,
 .fa-unlock-alt,
 .fa-cloud-upload,
@@ -814,12 +717,10 @@
   line-height: 72px;
 }
 
-/* line 622, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .first_step {
   position: relative;
 }
 
-/* line 625, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .arrow_up_first {
   background-image: url("../images/arrow-up.png");
   background-repeat: no-repeat;
@@ -830,12 +731,10 @@
   left: 180px;
 }
 
-/* line 634, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .second_step {
   position: relative;
 }
 
-/* line 637, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .arrow_down {
   background-image: url("../images/arrow-down.png");
   background-repeat: no-repeat;
@@ -846,12 +745,10 @@
   left: 170px;
 }
 
-/* line 646, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .third_step {
   position: relative;
 }
 
-/* line 649, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .arrow_up_second {
   background-image: url("../images/arrow-up.png");
   background-repeat: no-repeat;
@@ -862,7 +759,6 @@
   left: 180px;
 }
 
-/* line 658, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .process_button {
   display: inline-block;
   vertical-align: top;
@@ -878,17 +774,14 @@
   margin-top: 91px;
 }
 
-/* line 671, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .process_button:hover {
   background-color: #e7ad48;
 }
 
-/* line 675, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews {
   background-color: #ffc155;
 }
 
-/* line 678, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_container {
   max-width: 1170px;
   min-width: 320px;
@@ -898,7 +791,6 @@
   text-align: center;
 }
 
-/* line 686, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .main_reviews_title {
   color: #ffffff;
   font-family: 'Gotham Black', sans-serif;
@@ -908,7 +800,6 @@
   line-height: 30px;
 }
 
-/* line 694, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .main_reviews_text {
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
@@ -917,7 +808,6 @@
   line-height: 22px;
 }
 
-/* line 701, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_card {
   display: inline-block;
   vertical-align: top;
@@ -927,35 +817,29 @@
   padding: 43px 41px 51px 30px;
 }
 
-/* line 708, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_card:nth-child(even) {
   margin-right: 0;
 }
 
-/* line 712, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_block_first {
   margin-top: 58px;
 }
 
-/* line 715, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_block_second {
   margin-top: 20px;
 }
 
-/* line 718, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_img {
   float: left;
   width: 25%;
   margin-right: 13px;
 }
 
-/* line 723, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_info {
   float: left;
   width: 69%;
 }
 
-/* line 727, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_text {
   color: #7b7b7b;
   font-family: 'Open Sans', sans-serif;
@@ -964,21 +848,18 @@
   line-height: 22px;
 }
 
-/* line 733, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_text::before {
   content: "“";
   font-size: 30px;
   font-weight: 700;
 }
 
-/* line 738, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_text::after {
   content: "”";
   font-size: 30px;
   font-weight: 700;
 }
 
-/* line 744, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .reviews_name {
   margin-top: 25px;
   color: #99a9ae;
@@ -989,17 +870,14 @@
   text-transform: uppercase;
 }
 
-/* line 753, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .name_client {
   color: #f6772c;
 }
 
-/* line 756, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer {
   background-color: #ffffff;
 }
 
-/* line 759, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_container {
   max-width: 1170px;
   min-width: 320px;
@@ -1009,7 +887,6 @@
   text-align: center;
 }
 
-/* line 767, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .main_footer_title {
   color: #394b50;
   font-family: 'Gotham Black', sans-serif;
@@ -1019,7 +896,6 @@
   line-height: 30px;
 }
 
-/* line 775, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .main_footer_text {
   font-family: 'Open Sans', sans-serif;
   color: #394b50;
@@ -1028,12 +904,10 @@
   line-height: 22px;
 }
 
-/* line 782, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_form {
   margin-top: 38px;
 }
 
-/* line 785, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_button_name {
   display: inline-block;
   vertical-align: top;
@@ -1044,7 +918,6 @@
   border-radius: 4px;
 }
 
-/* line 794, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_button_email {
   display: inline-block;
   vertical-align: top;
@@ -1055,7 +928,6 @@
   border-radius: 4px;
 }
 
-/* line 803, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_button_submit {
   display: inline-block;
   vertical-align: top;
@@ -1064,14 +936,12 @@
   border-radius: 4px;
 }
 
-/* line 810, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_map_block {
   margin: 53px 34px 0 34px;
   border-bottom: 1px solid #e3e7ec;
   position: relative;
 }
 
-/* line 815, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_backimg {
   background-image: url("../images/map.png");
   background-repeat: no-repeat;
@@ -1080,7 +950,6 @@
   margin-bottom: 57px;
 }
 
-/* line 822, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_address_block {
   position: absolute;
   background-image: url("../images/circle.png");
@@ -1091,7 +960,6 @@
   left: 412px;
 }
 
-/* line 831, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_logo {
   position: absolute;
   background-image: url("../images/logo.png");
@@ -1102,7 +970,6 @@
   left: 526px;
 }
 
-/* line 840, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_address {
   margin-top: 65px;
   color: #aeb7ba;
@@ -1112,7 +979,6 @@
   line-height: 24px;
 }
 
-/* line 848, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_address_title {
   color: #ffffff;
   font-family: 'Lato', sans-serif;
@@ -1122,23 +988,19 @@
   margin-bottom: 10px;
 }
 
-/* line 856, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_address_email {
   color: #ffbb42;
 }
 
-/* line 859, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_nav {
   margin-top: 68px;
 }
 
-/* line 862, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_list {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 866, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_link {
   display: block;
   vertical-align: top;
@@ -1151,32 +1013,27 @@
   padding: 10px 20px 10px 20px;
 }
 
-/* line 876, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_link:hover {
   color: #ffffff;
   background-color: #ffbb42;
 }
 
-/* line 881, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_tel {
   margin-top: 29px;
 }
 
-/* line 884, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_tel_link {
   display: inline-block;
   vertical-align: bottom;
   margin-right: 7px;
 }
 
-/* line 889, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .fa-phone {
   color: #394b50;
   font-size: 20px;
   font-weight: 400;
 }
 
-/* line 894, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_tel_text {
   display: inline-block;
   vertical-align: top;
@@ -1187,12 +1044,10 @@
   line-height: 24px;
 }
 
-/* line 903, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_icons {
   margin-top: 23px;
 }
 
-/* line 906, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_icons_link {
   color: #709dca;
   font-size: 18px;
@@ -1201,23 +1056,19 @@
   margin-right: 15px;
 }
 
-/* line 912, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_icons_link:last-child {
   margin-right: 0;
 }
 
-/* line 915, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .footer_icons_link:hover {
   color: #ffc155;
   cursor: pointer;
 }
 
-/* line 920, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .copyright {
   background-color: #709dca;
 }
 
-/* line 923, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .copyright_container {
   padding-top: 17px;
   padding-bottom: 15px;
@@ -1227,7 +1078,6 @@
   text-align: center;
 }
 
-/* line 931, C:/Users/Sergey Skorinov/Downloads/Homework 9/scss/style.scss */
 .copyright_text {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
