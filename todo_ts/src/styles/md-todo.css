@@ -1,0 +1,75 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 300px;
+    min-height: 100px;
+    max-height: 300px;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.content-convas {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.button--add {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    border: none;
+    outline: 0;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #009688;
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+
+}
+
+.button--add:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: greenyellow;
+}
+
+.close--btn {
+    padding: 2px 16px;
+    content: "&times";
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.todo--item-done {
+    width: 800px;
+    text-decoration: line-through;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.todo--item {
+    padding: 2px 16px;
+    line-height: 30px;
+    position: relative;
+}
+
