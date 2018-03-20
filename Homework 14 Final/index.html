@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Duhoot</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container">
+            <a class="header_logo" href="#"></a>
+            <nav class="header_nav">
+                <ul class="header_nav_menu">
+                    <li><a class="header_nav_menu_item" href="#">Reality</a></li>
+                    <li><a class="header_nav_menu_item" href="#">Living</a></li>
+                    <li><a class="header_nav_menu_item" href="#">Education</a></li>
+                    <li><a class="header_nav_menu_item" href="#">Entertainment</a></li>
+                    <li><a class="header_nav_menu_item" href="#">Mobility</a></li>
+                </ul>
+            </nav>
+            <a class="header_search" href="#"></a>
+            <div class="header_registration">
+                <a class="header_registration_text" href="#">Login</a>
+            </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="intro_container">
+            <div class="intro_background">
+                <div class="intro_title">What are you looking for?</div>
+                <form class="intro_form" action="https://fom.in.ua/echo" name="Search" method="post">
+                    <div class="intro_form_top">
+                        <div class="intro_form_top_select">
+                            <select class="standart_select" name="country">
+                                <option value="dubai">Dubai</option>
+                                <option value="china">China</option>
+                                <option value="france">France</option>
+                                <option value="italy">Italy</option>
+                                <option value="spain">Spain</option>
+                            </select>
+                        </div>
+                        <div class="intro_form_top_select">
+                            <select class="standart_select" name="goal">
+                                <option value="education">Education</option>
+                                <option value="career">Career</option>
+                                <option value="tourism">Tourism</option>
+                                <option value="intership">Intership</option>
+                            </select>
+                        </div> 
+                    </div>
+                    <div class="intro_form_bottom">
+                        <div class="intro_form_bottom_input">
+                            <input class="standart_input" type="text" name="request" value="Keyword, name, date, ...">
+                        </div>
+                        <input class="intro_form_bottom_submit" type="submit" value="Search">
+                    </div>        
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="select_line">
+        <div class="select_line_container">
+            <div class="select_line_text">
+                <a class="select_line_text_link select_line_text--active" href="#">Recommended</a>
+                <a class="select_line_text_link" href="#">Latest</a>
+                <a class="select_line_text_link" href="#">Highlights</a>
+            </div>
+            <div class="select_line_buttons">
+                <div class="select_line_buttons_country">
+                    <select class="select_line_buttons_country_standart">
+                        <option value="dubai">Dubai</option>
+                        <option value="china">China</option>
+                        <option value="france">France</option>
+                        <option value="italy">Italy</option>
+                        <option value="spain">Spain</option>
+                    </select>
+                </div>
+                <div class="select_line_buttons_geo">
+                    <a class="select_line_buttons_geo_link" href="#">Hide map</a>
+                </div>
+            </div>
+            <div class="select_line_filters">
+                <div class="select_line_filters_text">Filter:</div>
+                <a href="#" class="select_line_filters_circle select_line_filters--house">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="#" class="select_line_filters_circle select_line_filters--user">
+                    <i class="far fa-user"></i>
+                </a>
+                <a href="#" class="select_line_filters_circle select_line_filters--cap">
+                    <i class="fas fa-graduation-cap"></i>                        
+                </a>
+                <a href="#" class="select_line_filters_circle select_line_filters--sheet_music">
+                    <i class="fas fa-music"></i>
+                </a>
+                <a href="#" class="select_line_filters_circle select_line_filters--bus">
+                    <i class="fas fa-bus"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <div class="cards_container">
+            <div class="card_block">
+                <div class="card_block_img card_block_img--first">
+                    <div class="card_block_img_block card_block_img--hidden_first">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--first">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">2 bedroom house for rent in Dubai</p>
+                    <p class="card_block_body_title card_block_body--title_first">Vision Agency</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star card_block_body_number_first"></i>  
+                    </div>                  
+                </div>
+            </div>
+            <div class="card_block remove_block">
+                <div class="card_block_img card_block_img--second">
+                    <div class="card_block_img_block card_block_img--hidden_second">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--second">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">Beach party festival 2014</p>
+                    <p class="card_block_body_title card_block_body--title_second">Long beach</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star card_block_body_number_second"></i>  
+                    </div>                  
+                </div>
+            </div>
+            <div class="card_block card_block--third">
+                <div class="card_block_img card_block_img--third">
+                    <div class="card_block_img_block card_block_img--hidden_third">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--third">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">Aliquam quis pulvinar purus</p>
+                    <p class="card_block_body_title card_block_body--title_third">Bus Trans</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star card_block_body_number_third"></i>  
+                    </div>                  
+                </div>
+            </div>
+            <div class="card_block card_block--fourth">
+                <div class="card_block_img card_block_img--fourth">
+                    <div class="card_block_img_block card_block_img--hidden_fourth">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--fourth">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">4 bedroom house for rent in Dubai</p>
+                    <p class="card_block_body_title card_block_body--title_fourth">Reality Agency</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star card_block_body_number_fourth"></i>  
+                    </div>                  
+                </div>
+            </div>
+        </div>
+        <div class="cards_container">
+            <div class="card_big_block">
+                <div class="card_big_block_img card_big_block_img--first"></div>
+                <div class="card_big_block_circle card_big_block_circle--first">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="card_big_block_content_top">
+                    <div class="card_big_block_content_top_title">Vision agency</div>
+                    <div class="card_big_block_content_top_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star card_big_block_content_top_number_first"></i>  
+                    </div>
+                </div>
+                <div class="card_big_block_center_rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>  
+                </div>
+                <div class="card_big_block_content_bottom">
+                    <img class="card_big_block_content_bottom_img" src="images/card_big_block_content_img_first.png" alt="Photo">
+                    <div class="card_big_block_content_bottom_text">
+                        <div class="card_big_block_content_bottom_text_name">Lucy-P</div>
+                        <div class="card_big_block_content_bottom_text_paragraph">
+                            “Aliquam quis pulvinar purus. 
+                            Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. 
+                            Duis mattis sagittis fringilla.”
+                            <a class="card_big_block_content_bottom_text_paragraph_link" href="#">...read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_big_block hidden_block">
+                <div class="card_big_block_img card_big_block_img--second"></div>
+                <div class="card_big_block_circle card_big_block_circle--second">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="card_big_block_content_top">
+                    <div class="card_big_block_content_top_title">Skybox club</div>
+                    <div class="card_big_block_content_top_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star card_big_block_content_top_number_second"></i>  
+                    </div>
+                </div>
+                <div class="card_big_block_center_rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>  
+                </div>
+                <div class="card_big_block_content_bottom">
+                    <img class="card_big_block_content_bottom_img" src="images/card_big_block_content_img_second.png" alt="Photo">
+                    <div class="card_big_block_content_bottom_text">
+                        <div class="card_big_block_content_bottom_text_name">Peter145</div>
+                        <div class="card_big_block_content_bottom_text_paragraph">
+                                “Aliquam quis pulvinar purus. 
+                                Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. 
+                                Duis mattis sagittis fringilla.”
+                            <a class="card_big_block_content_bottom_text_paragraph_link" href="#">...read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards_container">
+            <div class="card_block remove_block">
+                <div class="card_block_img card_block_img--first">
+                    <div class="card_block_img_block card_block_img--hidden_first">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--first">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">2 bedroom house for rent in Dubai</p>
+                    <p class="card_block_body_title card_block_body--title_first">Vision Agency</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star card_block_body_number_first"></i>  
+                    </div>                  
+                </div>
+            </div>
+            <div class="card_block">
+                <div class="card_block_img card_block_img--second">
+                    <div class="card_block_img_block card_block_img--hidden_second">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--second">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">Beach party festival 2014</p>
+                    <p class="card_block_body_title card_block_body--title_second">Long beach</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star card_block_body_number_second"></i>  
+                    </div>                  
+                </div>
+            </div>
+            <div class="card_block card_block--third">
+                <div class="card_block_img card_block_img--third">
+                    <div class="card_block_img_block card_block_img--hidden_third">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--third">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">Aliquam quis pulvinar purus</p>
+                    <p class="card_block_body_title card_block_body--title_third">Bus Trans</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star card_block_body_number_third"></i>  
+                    </div>                  
+                </div>
+            </div>
+            <div class="card_block card_block--fourth">
+                <div class="card_block_img card_block_img--fourth">
+                    <div class="card_block_img_block card_block_img--hidden_fourth">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--fourth">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">4 bedroom house for rent in Dubai</p>
+                    <p class="card_block_body_title card_block_body--title_fourth">Reality Agency</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star card_block_body_number_fourth"></i>  
+                    </div>                  
+                </div>
+            </div>
+        </div>
+        <div class="cards_container">
+            <div class="card_big_block card_big_block--second">
+                <div class="card_big_block_img card_big_block_img--second"></div>
+                <div class="card_big_block_circle card_big_block_circle--second">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="card_big_block_content_top">
+                    <div class="card_big_block_content_top_title">Skybox club</div>
+                    <div class="card_big_block_content_top_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star card_big_block_content_top_number_second"></i>  
+                    </div>
+                </div>
+                <div class="card_big_block_center_rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>  
+                </div>
+                <div class="card_big_block_content_bottom">
+                    <img class="card_big_block_content_bottom_img" src="images/card_big_block_content_img_second.png" alt="Photo">
+                    <div class="card_big_block_content_bottom_text">
+                        <div class="card_big_block_content_bottom_text_name">Peter145</div>
+                        <div class="card_big_block_content_bottom_text_paragraph">
+                                “Aliquam quis pulvinar purus. 
+                                Etiam cursus ipsum quis enim faucibus, quis posuere orci ornare. 
+                                Duis mattis sagittis fringilla.”
+                            <a class="card_big_block_content_bottom_text_paragraph_link" href="#">...read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card_block hidden_block">
+                <div class="card_block_img card_block_img--first">
+                    <div class="card_block_img_block card_block_img--hidden_first">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--first">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">2 bedroom house for rent in Dubai</p>
+                    <p class="card_block_body_title card_block_body--title_first">Vision Agency</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star card_block_body_number_first"></i>  
+                    </div>                  
+                </div>
+            </div>
+            <div class="card_block card_block--second">
+                <div class="card_block_img card_block_img--second">
+                    <div class="card_block_img_block card_block_img--hidden_second">
+                        <div class="card_block_img_block_button">
+                            <a class="card_block_img_block_button_link" href="#">Show more</a>
+                        </div>
+                        <div class="card_block_img_block_bottom">
+                            <div class="card_block_img_block_bottom_stars">
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                                <i class="far fa-star"></i> 
+                            </div>
+                            <a href="#" class="card_block_img_block_bottom_comment"><i class="far fa-comments"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_block_circle card_block_circle--second">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="card_block_body">
+                    <p class="card_block_body_text">Beach party festival 2014</p>
+                    <p class="card_block_body_title card_block_body--title_second">Long beach</p>
+                    <div class="card_block_body_rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star card_block_body_number_second"></i>  
+                    </div>                  
+                </div>
+            </div>
+        </div>
+        <div class="cards_main">
+            <a class="cards_main_link" href="#">Load more<i class="fas fa-long-arrow-alt-right cards_main_link_arrow"></i></a>
+        </div>
+    </div>
+    <div class="features">
+        <div class="features_container">
+            <div class="features_top_text">
+                <div class="features_top_text_title">What can DuHoot offer to you?</div>
+                <div>Etiam cursus ipsum quis enim faucibus</div>
+            </div>
+            <div class="features_circle_block">
+                <div class="features_circle_block_item features_circle_block_item--house">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="features_circle_block_item features_circle_block_item--user">
+                    <i class="far fa-user"></i>
+                </div>
+                <div class="features_circle_block_item features_circle_block_item--cap">
+                    <i class="fas fa-graduation-cap"></i> 
+                </div>
+                <div class="features_circle_block_item features_circle_block_item--sheet_music">
+                    <i class="fas fa-music"></i>
+                </div>
+                <div class="features_circle_block_item features_circle_block_item--bus">
+                    <i class="fas fa-bus"></i>
+                </div>
+            </div>
+            <div class="features_bottom_text">
+                <div class="features_bottom_text_title">Reality</div>
+                <div class="features_bottom_text_paragraphs">
+                    <div class="features_bottom_text_paragraphs_first">
+                        <img class="features_bottom_text_paragraphs_first_img" src="images/features_img_first.png" alt="Image">
+                        <p>
+                            Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, 
+                            vel dignissim mauris viverra. Maecenas vitae risus est. 
+                            In hendrerit, massa at.
+                        </p>
+                    </div>
+                    <div class="features_bottom_text_paragraphs_second">
+                        <img class="features_bottom_text_paragraphs_second_img" src="images/features_img_second.png" alt="Image">
+                        <p>
+                            Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Morbi gravida tellus in purus pharetra, 
+                            vel dignissim mauris viverra. Maecenas vitae risus est. 
+                            In hendrerit, massa at.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_main_container">
+            <div class="footer_background">
+                <div class="footer_container_block">
+                    <div class="footer_title">Subscribe to our newsletter</div>
+                    <form class="footer_form" action="https://fom.in.ua/echo" name="Subscription" method="post">
+                        <div class="footer_form_button">
+                            <input class="footer_form_button_input" type="email" name="email" value="your@email.com">
+                        </div>
+                        <input class="footer_form_button_submit" type="submit" value="Subscribe">
+                    </form>
+                    <div class="footer_bottom_block">
+                        <div class="footer_bottom_block_left">
+                            <div class="footer_bottom_block_text">
+                                <a class="footer_bottom_block_link" href="#">Ipsum quis</a>
+                                <ul>
+                                    <li>Aliquam quis</li>
+                                    <li>Pulvinar purus</li>
+                                    <li>Etiam cursus</li>
+                                    <li>Ipsum quis</li>
+                                    <li>Enim faucibus</li>
+                                </ul>
+                            </div>
+                            <div class="footer_bottom_block_text">
+                                <a class="footer_bottom_block_link" href="#">Ipsum quis</a>
+                                <ul>
+                                    <li>Aliquam quis</li>
+                                    <li>Pulvinar purus</li>
+                                    <li>Etiam cursus</li>
+                                    <li>Ipsum quis</li>
+                                    <li>Enim faucibus</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_bottom_block_sociallinks">
+                            <a class="footer_bottom_block_sociallinks_link" href="#">Follow us</a>
+                            <div class="footer_bottom_block_sociallinks_icons">
+                                <a class="footer_bottom_block_sociallinks_icons_link" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="footer_bottom_block_sociallinks_icons_link" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="footer_bottom_block_sociallinks_icons_link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                                <a class="footer_bottom_block_sociallinks_icons_link" href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                            <div class="footer_bottom_block_sociallinks_copyright">Copyright © All Rights reserved</div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
